@@ -1,0 +1,47 @@
+html {
+  font-family: 'Dosis', sans-serif;
+}
+
+p {
+  font-family: 'Noto Serif', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header nav li {
+  list-style: none;
+}
+
+header {
+   background-color: #6e98c4;
+ }
+
+header nav a {
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+
+nav li:hover {
+  background-color: #08797d;
+}
+
+
+@@media only screen and (min-width: 60em) {
+
+  nav ul li {
+    width: 10%;
+    display: inline;
+  }
+
+  nav ul {
+    width: 80%;
+    float: right;
+  }
+
+  .logo {
+    float: left;
+  }
+}
