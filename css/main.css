@@ -24,24 +24,68 @@ header nav a {
   display: inline-block;
 }
 
+header nav {
+  background-color: #606162;
+}
+
 nav li:hover {
   background-color: #08797d;
 }
 
+footer {
+  background-color: #6e98c4;
+}
 
-@@media only screen and (min-width: 60em) {
+small {
+  color: #fff;
+}
 
-  nav ul li {
-    width: 10%;
-    display: inline;
+.dog-banner {
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  background-color: #85b7ec;
+}
+
+.sec-2 {
+  background-color: #4f7296;
+  padding-bottom: 2rem;
+}
+
+.sec-2 h1 {
+  color: #fff;
+}
+
+.card {
+  max-width: 25rem;
+  border: 5px solid #141446;
+  border-radius: 25px;
+  padding: .5rem;
+  margin: 0 1rem 1rem;
+  text-decoration: none;
+  color: #000;
+  transition: 250ms;
+  margin: auto;
+}
+
+.card:hover {
+  background-color: #141446;
+  transition: 250ms;
+  color: #fff;
+}
+
+@@media only screen and (min-width: 38em) {
+
+  header ul li {
+    display: inline-block;
   }
 
-  nav ul {
-    width: 80%;
-    float: right;
-  }
-
-  .logo {
-    float: left;
+  .banner-content {
+    background-color: rgba(0, 0, 0, .7);
   }
 }
