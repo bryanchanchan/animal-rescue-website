@@ -79,6 +79,18 @@ small {
   color: #fff;
 }
 
+fieldset {
+  border: 0;
+}
+
+textarea,
+select,
+input {
+  border-color: #141446;
+  border-radius: 5px;
+  font-family: 'Noto Serif', serif
+}
+
 @@media only screen and (min-width: 38em) {
 
   header ul li {
