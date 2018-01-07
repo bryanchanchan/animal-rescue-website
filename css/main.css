@@ -2,6 +2,13 @@ html {
   font-family: 'Dosis', sans-serif;
 }
 
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
 p {
   font-family: 'Noto Serif', serif;
 }
@@ -91,7 +98,8 @@ input {
   font-family: 'Noto Serif', serif
 }
 
-@@media only screen and (min-width: 38em) {
+
+@media only screen and (min-width: 38em) {
 
   header ul li {
     display: inline-block;
@@ -99,5 +107,20 @@ input {
 
   .banner-content {
     background-color: rgba(0, 0, 0, .7);
+
+  }
+
+  .banner {
+    position: relative;
+  }
+
+  .banner-content {
+    position: absolute;
+    bottom: 0;
+    max-width: 50rem;
+  }
+
+  .banner-content p {
+    color: #fff;
   }
 }
