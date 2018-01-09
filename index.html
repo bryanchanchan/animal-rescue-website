@@ -11,17 +11,23 @@
   <link href="https://fonts.googleapis.com/css?family=Dosis:700|Noto+Serif" rel="stylesheet">
 </head>
 <body>
-  <header>
+
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to main content</a></li>
+  </ul>
+
+  <header role="banner">
     <div class="text-center">
       <a href="index.html">
         <img class="i-96 logo" src="images/logo.svg" alt="">
       </a>
     </div>
     <div>
-      <nav>
+      <nav role="navigation" id="nav">
         <ul class="grid list-group text-center">
           <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="index.html">Home</a></li>
-          <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="rescue.html">Rescue</a></li>
+          <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="rescues.html">Rescue</a></li>
           <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="adopt.html">Adopt</a></li>
           <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="#">Volunteer</a></li>
         </ul>
@@ -29,7 +35,7 @@
     </div>
   </header>
 
-  <main>
+  <main role="main" id="main">
     <section class="banner">
       <div class="embed embed-3by2">
         <img class="dog-banner embed-item" src="images/dog-banner.jpg" alt="">
@@ -38,7 +44,7 @@
         <p class="kilo">Welcome to LaMancha Animal Rescue located in Unionville, Pennsylvania. We are a privately funded 501c3 charity that was originally formed as an alternative to the slaughterhouse for ex-racehorses.</p>
         <p class="kilo push">Today LaMancha rescues and finds homes for not only horses but also dogs, cats, goats and the occasional exotic animal that requires more space or specialized knowledge than most SPCAs can offer.</p>
         <div class="text-center">
-          <a class="btn giga" href="#">Adopt</a>
+          <a class="btn btn-ghost giga" href="#">Adopt</a>
         </div>
       </div>
     </section>
@@ -52,7 +58,7 @@
     </section>
   </main>
 
-  <footer class="grid foot-align">
+  <footer class="grid foot-align" role="contentinfo">
     <div class="unit xs-1 s-1 m-1-2 l-1-2 pad-t gutter-1-2 text-center">
       <p><small class="text-center micro">©LaMancha Animal Rescue</small></p>
     </div>
