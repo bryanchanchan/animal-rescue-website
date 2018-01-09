@@ -104,6 +104,10 @@ label {
   color: #08797d;
 }
 
+.rounded {
+  border-radius: 25px;
+}
+
 @media only screen and (min-width: 38em) {
 
   header ul li {
@@ -112,7 +116,6 @@ label {
 
   .banner-content {
     background-color: rgba(0, 0, 0, .7);
-
   }
 
   .banner {
