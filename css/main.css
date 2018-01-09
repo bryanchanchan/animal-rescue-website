@@ -1,9 +1,9 @@
 html {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 p {
-  font-family: 'Noto Serif', serif;
+  font-family: "Noto Serif", serif;
 }
 
 a {
@@ -15,7 +15,7 @@ header nav li {
 }
 
 header {
-   background-color: #6e98c4;
+  background-color: #6e98c4;
  }
 
 header nav a {
@@ -70,7 +70,6 @@ small {
   text-decoration: none;
   color: #000;
   transition: 250ms;
-  margin: auto;
 }
 
 .card:hover {
@@ -96,7 +95,7 @@ small {
   color: #fff;
 }
 
-.card-dog:hover button {
+.card-dog:hover a {
   background-color: #fff;
 }
 
@@ -109,7 +108,7 @@ select,
 input {
   border-color: #141446;
   border-radius: 5px;
-  font-family: 'Noto Serif', serif
+  font-family: "Noto Serif", serif;
 }
 
 fieldset div {
@@ -135,10 +134,6 @@ label {
     display: inline-block;
   }
 
-  .banner-content {
-    background-color: rgba(0, 0, 0, .7);
-  }
-
   .banner {
     position: relative;
   }
@@ -150,6 +145,7 @@ label {
     left: 20%;
     padding: 2rem;
     border-radius: 8px;
+    background-color: rgba(0, 0, 0, .7);
   }
 
   .banner-content p {
