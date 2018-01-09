@@ -2,13 +2,6 @@ html {
   font-family: 'Dosis', sans-serif;
 }
 
-.red {
-  background-color: red;
-}
-.blue {
-  background-color: blue;
-}
-
 p {
   font-family: 'Noto Serif', serif;
 }
@@ -98,6 +91,18 @@ input {
   font-family: 'Noto Serif', serif
 }
 
+fieldset div {
+  padding-right: .75em;
+  padding-left: .75em;
+}
+
+.adopt {
+  color: #08797d;
+}
+
+label {
+  color: #08797d;
+}
 
 @media only screen and (min-width: 38em) {
 
@@ -118,9 +123,13 @@ input {
     position: absolute;
     bottom: 0;
     max-width: 50rem;
+    left: 20%;
+    padding: 2rem;
+    border-radius: 8px;
   }
 
   .banner-content p {
     color: #fff;
+    max-width: 50rem;
   }
 }
