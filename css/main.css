@@ -28,7 +28,7 @@ header nav {
   background-color: #606162;
 }
 
-nav li:hover {
+nav li a:hover {
   background-color: #08797d;
 }
 
@@ -116,7 +116,11 @@ fieldset div {
 }
 
 .adopt {
-  color: #08797d;
+  color: #fff;
+}
+
+.home {
+  color: #fff;
 }
 
 label {

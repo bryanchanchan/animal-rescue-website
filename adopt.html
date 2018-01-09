@@ -19,12 +19,10 @@
 
   <header role="banner">
     <div class="text-center">
-      <a class="embed embed-16by9" href="index.html">
-        <img class="embed-item i-96 logo" src="images/logo.svg" alt="">
-      </a>
+      <img class="i-96 logo" src="images/logo.svg" alt="Logo">
     </div>
     <div>
-      <nav role="navigation" id="nav">
+      <nav role="navigation" id="nav" tabindex="0">
         <ul class="grid list-group text-center">
           <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="index.html">Home</a></li>
           <li class="yota text-center unit xs-1 s-1 m-1-4 l-1-4 pad-t-1-4 pad-b-1-4"><a href="rescues.html">Rescue</a></li>
@@ -35,14 +33,19 @@
     </div>
   </header>
 
-  <main class="wrapper" id="main" role="main">
-    <section>
-      <h1 class="adopt gutter push-0 pad-t">Adopt</h1>
-      <p class="gutter push-2">Bring one home!</p>
+  <main class="wrapper" id="main" role="main" tabindex="0">
+    <section class="banner">
+      <div class="embed embed-3by2 relative">
+        <img class="dog-banner embed-item" src="images/dog6.jpg" alt="">
+        <div class="absolute pin-lb">
+          <h1 class="adopt gutter push-0 pad-t nina">Adopt</h1>
+          <p class="home gutter push-2 ">Bring one home!</p>
+        </div>
+      </div>
     </section>
     <form method="POST" action="chan0399@algonquinlive.com" role="form">
       <fieldset>
-        <legend>Personal Information</legend>
+        <legend class="exa pad-t-2 gutter-1-2">Personal Information</legend>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 gutter-1-2 push">
             <label for="name">First &amp;Last Name</label>
@@ -51,32 +54,32 @@
 
           <div class="unit xs-1 s-1 m-1-2 push">
             <label for="age">Your Age</label>
-            <input class="mirco" id="age" name="age">
+            <input class="micro" id="age" name="age">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
-            <label for="name">Partner's First &amp; Last name</label>
-            <input class="mirco" id="p-name" name="p-name">
+            <label for="p-name">Partner's First &amp; Last name</label>
+            <input class="micro" id="p-name" name="p-name">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
-            <label for="age">Partner's Age</label>
-            <input class="mirco" id="p-age" name="p-age">
+            <label for="p-age">Partner's Age</label>
+            <input class="micro" id="p-age" name="p-age">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
             <label for="address">Address</label>
-            <input class="mirco" id="address" name="address">
+            <input class="micro" id="address" name="address">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
             <label for="city">City</label>
-            <input class="mirco" id="city" name="city">
+            <input class="micro" id="city" name="city">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
             <label for="province">Province</label>
-            <select class="mirco" id="province" name="province">
+            <select class="micro" id="province" name="province">
               <option value="">Select a province</option>
               <option>Alberta</option>
               <option>British Columbia</option>
@@ -96,7 +99,7 @@
 
           <div class="unit xs-1 s-1 m-1-2 push">
             <label for="postal">Postal/Zip Code</label>
-            <input class="mirco" id="postal" name="postal">
+            <input class="micro" id="postal" name="postal">
           </div>
 
           <div class="unit xs-1 s-1 m-1-2 push">
